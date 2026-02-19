@@ -1,0 +1,219 @@
+body{
+    height:90vh;
+    width:90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+    padding:4rem
+}
+
+.interface{
+    height:90vh;
+    width:78vw;
+    background-color: whitesmoke;
+    background-image: url('photoboothBG.jpg');
+    border-radius: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:4rem;
+    /* margin:4rem; */
+    gap:50px
+
+}
+
+.effects{
+    height:20vh;
+    width:70vw;
+    border-radius: 2rem;
+    /* background-color: pink; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:50px;
+}
+
+.cam-effect{
+    height:10vh;
+    width:45vw;
+    border-radius: 2rem;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.camEffect{
+    height: 6.5vh;
+    width: 3.5vw;
+    border-radius: 50%;
+    border: none;
+}
+
+.snap-effect{
+    height:10vh;
+    width:20vw;
+    border-radius: 2rem;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.stripeBG{
+    height: 6.5vh;
+    width: 3.5vw;
+    border-radius: 50%;
+    border: none;
+}
+
+#seOne{
+    background-color: rgb(210, 58, 83);
+}
+
+#seTwo{
+    background-image: url('seTwo.jpg');
+}
+
+#seThree{
+    background-image: url('seThree.jpg');
+}
+
+.cam-pic{
+    width:68vw;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: black; */
+    gap:50px
+}
+
+.cam{
+    height:63vh;
+    width:45vw;
+    /* background-color: pink; */
+    background-color: whitesmoke;
+    border-radius: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    padding:2rem
+
+}
+
+.cam-holder{
+    height:50vh;
+    width:41vw;
+    background-color: pink;
+    border-radius: 2rem;
+}
+
+.cam-holder video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:2rem;
+}
+
+
+.click{
+    height:10vh;
+    width:41vw;
+    background-color: pink;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click-button{
+    height:8vh;
+    width:4vw;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    border:none;
+    font-size: 1.8rem;
+    color:crimson
+}
+
+.pic{
+    height:70vh;
+    width:25vw;
+    /* background-color: rgb(226, 10, 46); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-holder{
+    height:70vh;
+    width:20vw;
+    background-color: rgb(210, 58, 83);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.snap{
+    height:18vh;
+    width:16vw;
+    background-color: white;
+}
+
+.snap img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.save{
+    height:4vh;
+    width:2vw;
+    border-radius: 50%;
+    border-color: pink;
+    font-size: 1rem;
+    color:crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-wrap {
+    position: relative;
+    height:18vh;
+    width:16vw;
+}
+
+.photo-wrap img {
+    width: 100%;
+    display: block;
+}
+
+.delete-button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+

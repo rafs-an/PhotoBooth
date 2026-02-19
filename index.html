@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photobooth</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="interface">
+       <div class="cam-pic">
+          <div class="cam">
+              <div class="cam-holder">
+                <video id="camera" autoplay playsinline></video>
+              </div>
+              <div class="click">
+                   <button class="click-button">
+                          <i class="fa-solid fa-camera"></i>
+                   </button>
+              </div>
+          </div>
+          <div class="pic">
+            <div class="pic-holder">
+                <div class="snap"></div>
+                <div class="snap"></div>
+                <div class="snap"></div>
+                <button class="save">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </button>
+            </div>
+          </div>
+        </div>  
+        
+        <div class="effects">
+
+            <div class="cam-effect">
+                <button class="camEffect" id="ceOne" style="background-color: white;"></button>
+                <button class="camEffect" id="ceTwo" style="background-color: grey;"></button>
+                <button class="camEffect" id="ceThree" style="background-color: orange;"></button>
+                <button class="camEffect" id="ceFour" style="background-color: yellowgreen;"></button>
+                <button class="camEffect" id="ceFive" style="background-color: rgb(250, 128, 250);"></button>
+            </div>
+
+            <div class="snap-effect">
+                <button class="stripeBG" id="seOne"></button>
+                <button class="stripeBG" id="seTwo"></button>
+                <button class="stripeBG" id="seThree"></button>
+            </div>
+        </div>
+    </div>
+
+ <script src="script.js"></script>   
+</body>
+</html>
